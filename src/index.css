@@ -4,36 +4,73 @@
 * {
   margin: 0;
   font-family: "Quicksand";
-  color: #333;
+  /* color: #333; */
 }
-.navbar {
-  padding: 20px;
+/* SEARCH BOX  */
+
+.App{
+  background-color: #FEFEFE;
+  padding-top: 20px;
+}
+.searchbox{
+  position: relative;
+  left: 15cm;
+  width: 40%;
+  height: 30px;
+  background-color: #FEFEFE;
   display: flex;
   align-items: center;
-  max-width: 100%;
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  padding-left: 15px;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+}
+/* NAVBAR */
+.leftside{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navcontainer{
+  position: relative;
+  top: 1.5cm;
+  width: 50%;
+  left: 10cm;
+  background-color: #1F386B;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar {
+  width: 6cm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px 30px 30px 30px;
+  background-color: #D9D9D9;
+  margin: 10px;
   box-shadow: 0px 1px 0px  2px;
-  background-color: white;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12);
 }
-.navbar h1 {
-  color: #1F386B;
-}
-.navbar .links {
-  margin-left: auto;
-}
 .navbar a {
-  margin-left: 16px;
-  text-decoration: none;
+  margin-left: 24px;
   padding: 6px;
 }
-.navbar a:hover {
-  color: #1F386B;
+.othercontainer{
+  width: 9cm;
+  height: 30cm;
+  background-color: #1F386B;
+  border-radius: 40px 40px 40px 40px;
+  
+}
+/* CONTENT */
+.maincontainer{
+  width: 80%;
+  margin: 20px;
 }
 .content {
-  max-width: 600px;
-  margin: 40px auto;
+  display: flex;
+  max-width:100%;
   padding: 20px;
 }
 /* blog previews / list */
@@ -50,6 +87,29 @@
 .blog-preview h2 {
   font-size: 20px;
   color: #1F386B;
+  font-weight: bold;
   margin-bottom: 8px;
- 
+}
+
+/* DASHBOARD */
+
+.dashcontainer{
+  width: 20%;
+  height: 30cm;
+  background-color: #D7D9DD;
+  border-radius: 40px 0px 0px 40px;
+}
+
+/* OTHERBOARD */
+
+
+/* PROFILE */
+.userprofile{
+  display: flex;
+  justify-content: center;
+}
+.userpicture{
+  width: 50%;
+  height: 40%;
+  background-color: #1F386B;
 }

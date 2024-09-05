@@ -1,30 +1,57 @@
 
 // import './index.css';
-
+import Searchbox  from './searchbox';
 import Navbar from './navbar';
+import Dashboard from './dashboard';
+import Otherboard from './otherboard';
 import Home from './Home';
+import Newpost from './Newpost';
+import Profile from './profile';
+
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router ,Route ,Switch } from 'react-router-dom/cjs/react-router-dom.min';
 
 function App() {
-  const title ='Welcome to the new blog';
-  const likes = '50';
-  const link ="https://adminbom.smobilpay.integration.maviance.info/login";
+
+  // const title ='Welcome to the blog';
+  // const likes = '50';
+  // const link ="https://adminbom.smobilpay.integration.maviance.info/login";
+    
+
   // const person = {name: 'Yoshi', age: 30};
   return (
-    <div className="App">
-<Navbar/>
-<Home/>
-      <div className="content">
-      <h1>{ title}</h1>
-      <p>Liked {likes} times </p>
-      {/* <p>{person}</p> */}
+    <Router>
+      <div className="App">
+        <Searchbox/>
+       
+          <div className="content">
+            <Dashboard/>
+           <div className="maincontainer">
+           <Switch>
+              <Route exact path="/">  
+                <Home/>
+              </Route>
 
-      <p>{10}</p>
-      <p>{"Hello Ninjas"}</p>
-      <p>{[1,2,3,4,5,6]}</p>
-      <p>{Math.random()* 10}</p>
-     <p> <a href={link}>Google site</a></p>
+              <Route path="/newpost">  
+             <Newpost/>
+              </Route>
+
+              <Route path="/profile">  
+               <Profile/>
+              </Route>
+            </Switch>
+           </div>
+           <div className="leftside">
+           <Navbar/>
+           <Otherboard/>
+           </div>
+           
+            
+          </div>
+            
       </div>
-    </div>
+    </Router>
   );
 }
 

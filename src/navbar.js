@@ -1,26 +1,21 @@
+import { Link } from "react-router-dom"; 
+import notif from './images/notif.png'
+import language from './images/language.png'
+import profile from './images/profile.png'
+
+
+
 const  Navbar = () => {
     return ( 
 
         <nav className="navbar">
-            <h1>Mon-<span  style={{color:'#C2B45F'}} >MEMO</span></h1>
+          
             <div className="links">
-                <a href="/" style={{
-                    color:"White",
-                    backgroundColor:'black',
-                    borderRadius:'8px'
-                }}>Home</a>
+                <Link to="/"><img src={notif} alt="" style={{width:"30px",}}/></Link>
                 
-                <a href="/create" style={{
-                    color:"White",
-                    backgroundColor:'black',
-                    borderRadius:'8px'
-                }}>New Post</a>
+                <Link to="/newpost" ><img src={language} alt="" style={{width:"30px",}}/></Link>
 
-                <a href="/create" style={{
-                    color:"White",
-                    backgroundColor:'black',
-                    borderRadius:'8px'
-                }}>Pinned</a>
+                <Link to="/profile" ><img src={profile} alt="" style={{width:"30px",}}/></Link>
             </div>
         </nav>
      );

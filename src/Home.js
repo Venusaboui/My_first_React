@@ -1,24 +1,20 @@
 import { useState,useEffect } from "react"
-import Bloglist from "./Bloglist";
+import Bloglist from "./courses";
+import usefetch from "./usefetch";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Home = () => {
-  
-// div des memoires
-    const [blogs , setBlogs] = useState([
-        { title: 'My new website', body: 'lorem ipsum...', author: 'mario', supervisor:'Maka Maka', id: 1 },
-        { title: 'Welcome party!', body: 'lorem ipsum...', author: 'yoshi', supervisor:'Malong Yannick', id: 2 },
-        { title: 'Web dev top tips', body: 'lorem ipsum...', author: 'mario', supervisor:'Toto Philppe', id: 3 },
-        { title: 'My new website', body: 'lorem ipsum...', author: 'mariette', supervisor:'Maka Maka', id: 4 },
-        { title: 'Welcome party!', body: 'lorem ipsum...', author: 'mario', supervisor:'Mouangue Ruben', id: 5 },
-        { title: 'Web dev top tips', body: 'lorem ipsum...', author: 'mario', supervisor:'Maka Maka', id: 6 }
-    ]);
-// ?????
+    const { data: blogs ,isPending, error ,setData: setBlogs} = usefetch('http://localhost:8000/blogs')
+    // const [blogs , setBlogs] = useState(null);
+    const [data , setData] = useState(null);
     const [name , setName] = useState('Mario');
     const [age , setAge] = useState('25');
+  
+
 // valeurs initiales 
     const handleClick=() =>{
         setName('Luigi')
-        setAge('41')
+        setAge('41') 
     }
 // bouton changeant
     const handleClickAgain= (name) =>{
@@ -29,25 +25,27 @@ const Home = () => {
         setBlogs(newBlogs)
 
     }
+// Fetching data from the DB
 
-useEffect(() =>{
     console.log('useEffect worked')
     console.log(blogs)
-})
+
     return ( 
         <div className="home">
-            <Bloglist blogs={blogs} title='Welcome to the new blog' handleDelete={handleDelete}/>
+            {error && <div>{error}</div>} 
+            {isPending && <div>Loading......</div>}
+            {blogs && <Bloglist  blogs={blogs} title='Courses' handleDelete={handleDelete}/> }
             <br />
             {/* filter blogs */}
-            <Bloglist blogs={blogs.filter((blog) => blog.author ==='mariette')} title='Mario blogs ' supervisor={'Maka Maka'}/>
+            {blogs && <Bloglist blogs={blogs.filter((blog) => blog.author ==='Josiane')} title='Now Reading ' supervisor={'Maka Maka'}/> } 
 
-<br /><br />
+
         {/* Result des boutons de la phrase  */}
-             <h2>Homepage</h2>
+             {/* <h2>Homepage</h2>
             <br />
             <p>{name} is {age} years old</p>
             <button onClick={handleClick}>Click Here</button>
-            <button onClick={() => handleClickAgain('Jenny') }>Click me again</button> 
+            <button onClick={() => handleClickAgain('Jenny') }>Click me again</button>  */}
         </div> 
      );
 }

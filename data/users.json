@@ -1,0 +1,41 @@
+{
+    "users": [
+      {
+        "Firstname": "Ndobo",
+        "Lastname": " Paulin junior",
+        "Dateofbirth": "01/07/2004",
+        "Course":"GIT",
+        "Status": "Student",
+        "id": 1,
+        "imageUrl": "https://imagizer.imageshack.com/img923/8541/0szzYG.jpg"
+        
+      },
+      {
+        "Firstname": "Ndobo",
+        "Lastname": " Paulin  bolo junior",
+        "Dateofbirth": "01/07/2004",
+        "Course":"GIT",
+        "Status": "Student",
+        "id": 2,
+        "imageUrl": "https://example.com/images/ndobo_paulin_bolo_junior.jpg"
+      },
+      {
+        "Firstname": "Ndobo",
+        "Lastname": " Paulin ella junior",
+        "Dateofbirth": "01/07/2004",
+        "Course":"GIT",
+        "Status": "Student",
+        "id": 3,
+        "imageUrl": "https://example.com/images/ndobo_paulin_bolo_junior.jpg"
+      },
+      {
+        "Firstname": "Ndobo",
+        "Lastname": " Paulin jenni junior",
+        "Dateofbirth": "01/07/2004",
+        "Course":"GIT",
+        "Status": "Student",
+        "id": 4,
+        "imageUrl": "https://example.com/images/ndobo_paulin_bolo_junior.jpg"
+      }
+    ]
+  }
