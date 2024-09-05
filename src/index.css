@@ -58,7 +58,7 @@
 }
 .othercontainer{
   width: 9cm;
-  height: 30cm;
+  height: 29cm;
   background-color: #1F386B;
   border-radius: 40px 40px 40px 40px;
   
@@ -95,7 +95,7 @@
 
 .dashcontainer{
   width: 20%;
-  height: 30cm;
+  height: 31cm;
   background-color: #D7D9DD;
   border-radius: 40px 0px 0px 40px;
 }
@@ -104,12 +104,74 @@
 
 
 /* PROFILE */
+
 .userprofile{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  height: 30.5cm;
 }
 .userpicture{
-  width: 50%;
+  display: flex;
+  width: 100%;
   height: 40%;
-  background-color: #1F386B;
+}
+.userinformation{
+  border-radius: 40px 40px 40px 40px;
+  padding: 1cm;
+  width: 100%;
+  height: 60%;
+  background-color: #D7D9DD;
+  display: flex;
+  flex-direction: column;
+}
+.userimage{
+  width: 60%;
+}
+.mainimage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+ 
+}
+.circle{
+  width: 360px;          
+  height: 360px;         
+  border-radius: 50%;    
+  border: 5px solid #2c3e50; /* Border thickness and color */
+  display: inline-block; 
+}
+.imgbuttons{
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.userprofileinfo{
+  
+  width: 40%;
+}
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Optional: Adds space between the course boxes */
+}
+
+.mainhome {
+  padding: 20px;
+}
+.coursebox {
+  flex: 1 1 calc(50.333% - 10px); /* Adjusts the size of each box to fit three items per row with spacing */
+  background-color: #FEFEFE; /* Example background color */
+  padding: 20px;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.1);
+  border-radius: 10px 10px 10px 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd; /* Optional: Adds a border around each box */
+  text-align: start; /* Centers text inside the box */
+  width: 50%;
+}
+.nowreading{
+  height: 50%;
 }
