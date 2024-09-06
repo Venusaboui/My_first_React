@@ -5,7 +5,7 @@ import logo from "./images/Capture.png"
 import { MdFolderOpen } from "react-icons/md";
 import { MdDriveFolderUpload } from "react-icons/md";
 import { FaRegHeart } from "react-icons/fa";
-
+import { Link } from "react-router-dom"; 
 
 const Dashboard = () => { 
     return (  
@@ -14,14 +14,14 @@ const Dashboard = () => {
             <br /><br /><br /><br /><br /><br />
             <h2 style={{fontWeight:'bold'}}>Ressources</h2>
             <br />
-            <div className="home">
-            <GrHomeRounded   style={{ width: 'auto', height: '30px', margin:'5px' }} /> <span style={{ fontWeight:'bold' , fontSize:'larger'}}>Home</span></div>
+
+           <Link to="/home"> <div className="dashboardbutton"><GrHomeRounded style={{ width: 'auto', height: '30px', margin:'5px',color:"black" }}/> <span style={{fontWeight:'bold' , fontSize:'larger',color:"black"}}>Home</span></div></Link>
             <br />
-            <div className="collections"><MdFolderOpen style={{ width: 'auto', height: '30px', margin:'5px'}} /> <span style={{ fontWeight:'bold' , fontSize:'larger'}}>Collections</span></div>
+            <Link to="/collections"><div className="dashboardbutton"><MdFolderOpen style={{ width: 'auto', height: '30px', margin:'5px',color:"black" }} /> <span style={{fontWeight:'bold' , fontSize:'larger',color:"black"}}>Collections</span></div></Link>
             <br />
-            <div className="uploads"><MdDriveFolderUpload style={{ width: 'auto', height: '30px' , margin:'5px'}} /><span style={{ fontWeight:'bold' , fontSize:'larger'}}>Uploads</span></div>
+            <Link to="/uploads"><div className="dashboardbutton"><MdDriveFolderUpload style={{ width: 'auto', height: '30px', margin:'5px',color:"black" }}/><span style={{fontWeight:'bold' , fontSize:'larger',color:"black"}}>Uploads</span></div></Link>
             <br />
-            <div className="likes"><FaRegHeart style={{ width: 'auto', height: '30px', margin:'5px'}}/><span style={{ fontWeight:'bold' , fontSize:'larger'}}>Likes</span></div>
+            <Link to="/liked"><div className="dashboardbutton"><FaRegHeart style={{ width: 'auto', height: '30px', margin:'5px',color:"black" }}/><span style={{fontWeight:'bold' , fontSize:'larger',color:"black"}}>Likes</span></div></Link>
        </div>
        
     );

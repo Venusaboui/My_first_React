@@ -5,8 +5,9 @@ import Navbar from './navbar';
 import Dashboard from './dashboard';
 import Otherboard from './otherboard';
 import Home from './Home';
-import Newpost from './Newpost';
+import Notif from './Notifications';
 import Profile from './profile';
+import Chats from './chats';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -28,19 +29,33 @@ function App() {
           <div className="content">
             <Dashboard/>
            <div className="maincontainer">
-           <Switch>
-              <Route exact path="/">  
-                <Home/>
-              </Route>
+            <Switch>
+                <Route exact path="/home">  
+                  <Home/>
+                </Route>
 
-              <Route path="/newpost">  
-             <Newpost/>
-              </Route>
+                <Route path="/collections">  
+                </Route>
 
-              <Route path="/profile">  
-               <Profile/>
-              </Route>
-            </Switch>
+                <Route path="/uploads">  
+                </Route>
+
+                <Route path="/liked">  
+                
+                </Route>
+
+                <Route exact path="/notifications"> 
+                  <Notif/> 
+                </Route>
+
+                <Route path="/language">  
+                </Route>
+
+                <Route path="/profile">  
+                <Profile/>
+                </Route>
+              </Switch>
+
            </div>
            <div className="leftside">
            <Navbar/>

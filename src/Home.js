@@ -40,8 +40,19 @@ console.log(courses)
             </div>
             
 
+
+            {/* <div className="dashlinks d-flex row ">
+                <Link to="/home"><img src={notif} alt="" style={{width:"30px",}}/> <span style={{fontWeight:"bold", color:"black", margin:"10px", fontSize:"25px"}}>Home</span></Link>
+                
+                <Link to="/newpost" ><img src={language} alt="" style={{width:"30px",}}/></Link>
+
+                <Link to="/profile" ><img src={profile} alt="" style={{width:"30px",}}/></Link>
+            </div> */}
+
       
         </div> 
+
+        
      );
 }
  
