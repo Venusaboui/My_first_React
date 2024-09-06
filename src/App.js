@@ -7,7 +7,7 @@ import Otherboard from './otherboard';
 import Home from './Home';
 import Notif from './Notifications';
 import Profile from './profile';
-import Chats from './chats';
+import Collections from './collections';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -35,6 +35,7 @@ function App() {
                 </Route>
 
                 <Route path="/collections">  
+                <Collections/>
                 </Route>
 
                 <Route path="/uploads">  

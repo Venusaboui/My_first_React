@@ -1,10 +1,7 @@
 import { useState,useEffect } from "react"
-import Bloglist from "./courses";
-import usefetch from "./usefetch";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Home = () => {
-    const { data: blogs ,isPending, error ,setData: setBlogs} = usefetch('http://localhost:8000/courses')
 const[courses,setCourses]=useState()
 useEffect(() => {
     fetch('http://localhost:8000/courses')
@@ -39,17 +36,6 @@ console.log(courses)
                         <h2 className="fw-bold">Now Reading</h2>
             </div>
             
-
-
-            {/* <div className="dashlinks d-flex row ">
-                <Link to="/home"><img src={notif} alt="" style={{width:"30px",}}/> <span style={{fontWeight:"bold", color:"black", margin:"10px", fontSize:"25px"}}>Home</span></Link>
-                
-                <Link to="/newpost" ><img src={language} alt="" style={{width:"30px",}}/></Link>
-
-                <Link to="/profile" ><img src={profile} alt="" style={{width:"30px",}}/></Link>
-            </div> */}
-
-      
         </div> 
 
         
