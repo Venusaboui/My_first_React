@@ -1,5 +1,4 @@
-import { useState,useEffect } from "react"
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
 import { FiSearch } from "react-icons/fi";
 
 const Searchbox = () => { 

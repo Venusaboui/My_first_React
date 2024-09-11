@@ -1,5 +1,5 @@
 import { useState,useEffect } from "react"
-import usefetch from "./usefetch";
+import usefetch from "../usefetch";
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 
