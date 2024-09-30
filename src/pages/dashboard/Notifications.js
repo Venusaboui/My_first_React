@@ -1,16 +1,19 @@
 import React, { useState } from "react";
 import Chats from "../../components/Chats";
 import Reactions from "../../components/Reactions";
-import { DashboardLayout } from "../../layouts/DashboardLayout";
-
+import { DashboardLayout3 } from "../../layouts/Dashboardlayout3";
+import Navbar from "../../partials/Navbar";
 const Notifications = () => {
   const [index, setIndex] = useState(0);
   const [notif, setNotif] = useState([]);
 
   return (
-    <DashboardLayout>
+    <DashboardLayout3>
       <div>
-        <p className="fw-bold fs-1">Notifications</p>
+      <div className="uploads_nav">
+     <h1 className="fw-bold">Notifications</h1>
+       <Navbar />
+       </div>
         <br />
         <div className="notifcontainer">
           <div className="notifbuttons">
@@ -32,7 +35,7 @@ const Notifications = () => {
           {index === 0 ? <Chats /> : <Reactions />}
         </div>
       </div>
-    </DashboardLayout>
+    </DashboardLayout3>
   );
 };
 

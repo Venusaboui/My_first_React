@@ -7,10 +7,11 @@ import Rightbar from "../partials/Rightbar";
 export const DashboardLayout = ({ children }) => {
   return (
     <div className="Admin">
-      <Searchbox />
+      {/* <Searchbox /> */}
       <div className="content">
         <Sidebar />
-        <div className="maincontainer">{children}</div>
+        <div className="maincontainer">
+          {children}</div>
         <div className="leftside">
           <Navbar />
           <Rightbar />

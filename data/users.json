@@ -1,126 +1,382 @@
 {
-    "users": [
-      {
-        "Firstname": "Ndobo",
-        "Lastname": "Paulin junior",
-        "Dateofbirth": "01/07/2004",
-        "Course": "GIT",
-        "Status": "Student",
-        "id": 1
-      },
-      {
-        "Firstname": "Ndobo",
-        "Lastname": "Paulin bolo junior",
-        "Dateofbirth": "01/07/2004",
-        "Course": "GIT",
-        "Status": "Student",
-        "id": 2
-      },
-      {
-        "Firstname": "Ndobo",
-        "Lastname": "Paulin ella junior",
-        "Dateofbirth": "01/07/2004",
-        "Course": "GIT",
-        "Status": "Student",
-        "id": 3
-      },
-      {
-        "Firstname": "Ndobo",
-        "Lastname": "Paulin jenni junior",
-        "Dateofbirth": "01/07/2004",
-        "Course": "GIT",
-        "Status": "Student",
-        "id": 4
-      }
-    ],
-
-    "report": [
-      {
-        "title": "Automatisation des End to End Tests ",
-        "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
-        "author": "Josiane",
-        "supervisor":"Maka Maka",
-        "id": 1
-      },
-      {
-        "title": "Analyse de L'etude du Marche Cas de Chanas Assurances ",
-        "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
-        "author": "Lely",
-        "supervisor":"Maka Maka",
-        "id": 2
-      },
-      {
-        "title": "Creation d'une Application de gestion d'ecole ",
-        "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
-        "author": "Nasser",
-        "supervisor":"Maka Maka",
-        "id": 3
-      },
-      {
-        "title": "Analyse des données pour entreprise de Ciment",
-        "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
-        "author": "Lely",
-        "supervisor":"Maka Maka",
-        "id": 4
-      }
-    ],
-
-    "courses": [
-      {
-        "name": "Genie Informatique et Telecommunications",
-        "id": 1
-      },
-      {
-        "name": "Genie Electrique et Systemes Intelligents ",
-        "id": 2
-      },
-      {
-        "name": "Genie Energetique",
-        "id": 3
-      },
-      {
-        "name": "Genie des Procedes ",
-        "id": 4
-      },
-      {
-        "name": "Genie Maritime et Portuaire",
-        "id": 5
-      },
-      {
-        "name": "Genie Mecanique ",
-        "id": 6
-      },
-      {
-        "name": "Genie Qualite Hygiene et Securite ",
-        "id": 7
-      },
-      {
-        "name": "Genie Civil",
-        "id": 8
-      },
-      {
-        "name": "Genie Automobile et Mecatronique ",
-        "id": 9
-      }
-    ],
-
-    "newcollections": [
-      {
-        "name": "Discover",
-        "id": 1
-      },
-      {
-        "name": "Innovations",
-        "id": 2
-      },
-      {
-        "name": "Already existing",
-        "id": 3
-      },
-      {
-        "name": "Important",
-        "id": 4
-      }
-    ]
-  }
-  
+  "users": [
+    {
+      "Firstname": "Ndobo",
+      "Lastname": "Paulin junior",
+      "Dateofbirth": "01/07/2004",
+      "Course": "GIT",
+      "Status": "Student",
+      "id": "1"
+    },
+    {
+      "Firstname": "Ndobo",
+      "Lastname": "Paulin bolo junior",
+      "Dateofbirth": "01/07/2004",
+      "Course": "GIT",
+      "Status": "Student",
+      "id": "2"
+    },
+    {
+      "Firstname": "Ndobo",
+      "Lastname": "Paulin ella junior",
+      "Dateofbirth": "01/07/2004",
+      "Course": "GIT",
+      "Status": "Student",
+      "id": "3"
+    },
+    {
+      "Firstname": "Ndobo",
+      "Lastname": "Paulin jenni junior",
+      "Dateofbirth": "01/07/2004",
+      "Course": "GIT",
+      "Status": "Student",
+      "id": "4"
+    }
+  ],
+  "credentials": [
+    {
+      "Username": "Ndobopaulin",
+      "Password": "junior123",
+      "id": "1"
+    },
+    {
+      "Username": "Mbakopgeorges",
+      "Password": "alfred123",
+      "id": "2"
+    },
+    {
+      "Username": "Akakpolandry",
+      "Password": "loic123",
+      "id": "3"
+    },
+    {
+      "Username": "Atouhisis",
+      "Password": "audrey123",
+      "id": "4"
+    }
+  ],
+  "report": [
+    {
+      "course": "GIT",
+      "title": "Automatisation des End to End Tests  ",
+      "intro": "L'automatisation des tests End-to-End (E2E) est essentielle pour garantir la qualité des applications en simulant des scénarios d'utilisation réels. En automatisant ces tests, les équipes peuvent détecter rapidement les erreurs et améliorer l'efficacité du processus de développement. Cela permet également de réduire le temps de mise sur le marché tout en assurant une expérience utilisateur optimale. ",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Josiane",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "33Mb",
+      "status": "new",
+      "liked": "yes",
+      "reading": "yes",
+      "progress": "56",
+      "id": "1"
+    },
+    {
+      "course": "GESI",
+      "title": "Analyse de L'etude du Marche Cas de Chanas Assurances ",
+      "intro": "L'analyse du marché pour Chanas Assurances nécessite une évaluation approfondie de plusieurs facteurs clés. D'abord, il est crucial d'examiner la concurrence, en identifiant les forces et les faiblesses des principaux acteurs du secteur. Ensuite, une étude des besoins des consommateurs permettra de comprendre les attentes et les préférences des clients potentiels. Enfin, l'analyse des tendances économiques et réglementaires en matière d'assurance fournira des insights sur les opportunités et les défis futurs, aidant Chanas Assurances à se positionner stratégiquement sur le marché.",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Lely",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "43Mb",
+      "status": "new",
+      "liked": "yes",
+      "reading": "no",
+      "progress": "10",
+      "id": "2"
+    },
+    {
+      "course": "GM",
+      "title": "Creation d'une Application de gestion d'ecole ",
+      "intro": "L'analyse du marché pour Chanas Assurances nécessite une évaluation approfondie de plusieurs facteurs clés. D'abord, il est crucial d'examiner la concurrence, en identifiant les forces et les faiblesses des principaux acteurs du secteur. Ensuite, une étude des besoins des consommateurs permettra de comprendre les attentes et les préférences des clients potentiels. Enfin, l'analyse des tendances économiques et réglementaires en matière d'assurance fournira des insights sur les opportunités et les défis futurs, aidant Chanas Assurances à se positionner stratégiquement sur le marché.",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Nasser",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "73Mb",
+      "status": "new",
+      "liked": "yes",
+      "reading": "yes",
+      "progress": "20",
+      "id": "3"
+    },
+    {
+      "course": "GMP",
+      "title": "Analyse des données pour entreprise de Ciment",
+      "intro": "L'analyse du marché pour Chanas Assurances nécessite une évaluation approfondie de plusieurs facteurs clés. D'abord, il est crucial d'examiner la concurrence, en identifiant les forces et les faiblesses des principaux acteurs du secteur. Ensuite, une étude des besoins des consommateurs permettra de comprendre les attentes et les préférences des clients potentiels. Enfin, l'analyse des tendances économiques et réglementaires en matière d'assurance fournira des insights sur les opportunités et les défis futurs, aidant Chanas Assurances à se positionner stratégiquement sur le marché.",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Lely",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "123Mb",
+      "status": "new",
+      "liked": "yes",
+      "reading": "no",
+      "progress": "50",
+      "id": "4"
+    },
+    {
+      "course": "GCI",
+      "title": "Automatisation des End to End Tests 2",
+      "intro": "L'analyse du marché pour Chanas Assurances nécessite une évaluation approfondie de plusieurs facteurs clés. D'abord, il est crucial d'examiner la concurrence, en identifiant les forces et les faiblesses des principaux acteurs du secteur. Ensuite, une étude des besoins des consommateurs permettra de comprendre les attentes et les préférences des clients potentiels. Enfin, l'analyse des tendances économiques et réglementaires en matière d'assurance fournira des insights sur les opportunités et les défis futurs, aidant Chanas Assurances à se positionner stratégiquement sur le marché.",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Josiane",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "33Mb",
+      "status": "new",
+      "liked": "yes",
+      "reading": "yes",
+      "progress": "90",
+      "id": "5"
+    },
+    {
+      "course": "GAM",
+      "title": "Automatisation des End to End Tests 3 ",
+      "intro": "L'analyse du marché pour Chanas Assurances nécessite une évaluation approfondie de plusieurs facteurs clés. D'abord, il est crucial d'examiner la concurrence, en identifiant les forces et les faiblesses des principaux acteurs du secteur. Ensuite, une étude des besoins des consommateurs permettra de comprendre les attentes et les préférences des clients potentiels. Enfin, l'analyse des tendances économiques et réglementaires en matière d'assurance fournira des insights sur les opportunités et les défis futurs, aidant Chanas Assurances à se positionner stratégiquement sur le marché.",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Josiane",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "33Mb",
+      "status": "new",
+      "liked": "yes",
+      "reading": "no",
+      "progress": "70",
+      "id": "6"
+    },
+    {
+      "course": "QHSE",
+      "title": "Automatisation des End to End Tests 4 ",
+      "intro": "L'analyse du marché pour Chanas Assurances nécessite une évaluation approfondie de plusieurs facteurs clés. D'abord, il est crucial d'examiner la concurrence, en identifiant les forces et les faiblesses des principaux acteurs du secteur. Ensuite, une étude des besoins des consommateurs permettra de comprendre les attentes et les préférences des clients potentiels. Enfin, l'analyse des tendances économiques et réglementaires en matière d'assurance fournira des insights sur les opportunités et les défis futurs, aidant Chanas Assurances à se positionner stratégiquement sur le marché.",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Josiane",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "33Mb",
+      "status": "new",
+      "liked": "yes",
+      "reading": "yes",
+      "progress": "10",
+      "id": "7"
+    },
+    {
+      "course": "GPR",
+      "title": "Automatisation des End to End Tests 4 ",
+      "intro": "L'analyse du marché pour Chanas Assurances nécessite une évaluation approfondie de plusieurs facteurs clés. D'abord, il est crucial d'examiner la concurrence, en identifiant les forces et les faiblesses des principaux acteurs du secteur. Ensuite, une étude des besoins des consommateurs permettra de comprendre les attentes et les préférences des clients potentiels. Enfin, l'analyse des tendances économiques et réglementaires en matière d'assurance fournira des insights sur les opportunités et les défis futurs, aidant Chanas Assurances à se positionner stratégiquement sur le marché.",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Josiane",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "33Mb",
+      "status": "new",
+      "liked": "yes",
+      "reading": "yes",
+      "progress": "90",
+      "id": "8"
+    },
+    {
+      "course": "GE",
+      "title": "Automatisation des End to End Tests 4 ",
+      "intro": "L'analyse du marché pour Chanas Assurances nécessite une évaluation approfondie de plusieurs facteurs clés. D'abord, il est crucial d'examiner la concurrence, en identifiant les forces et les faiblesses des principaux acteurs du secteur. Ensuite, une étude des besoins des consommateurs permettra de comprendre les attentes et les préférences des clients potentiels. Enfin, l'analyse des tendances économiques et réglementaires en matière d'assurance fournira des insights sur les opportunités et les défis futurs, aidant Chanas Assurances à se positionner stratégiquement sur le marché.",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Josiane",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "33Mb",
+      "status": "new",
+      "liked": "yes",
+      "reading": "no",
+      "progress": "50",
+      "id": "9"
+    },
+    {
+      "course": "GIT",
+      "title": "Automatisation des End to End Tests  ",
+      "intro": "L'automatisation des tests End-to-End (E2E) est essentielle pour garantir la qualité des applications en simulant des scénarios d'utilisation réels. En automatisant ces tests, les équipes peuvent détecter rapidement les erreurs et améliorer l'efficacité du processus de développement. Cela permet également de réduire le temps de mise sur le marché tout en assurant une expérience utilisateur optimale. ",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Josiane",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "33Mb",
+      "status": "old",
+      "liked": "no",
+      "reading": "no",
+      "progress": "56",
+      "id": "10"
+    },
+    {
+      "course": "GESI",
+      "title": "Analyse de L'etude du Marche Cas de Chanas Assurances ",
+      "intro": "L'analyse du marché pour Chanas Assurances nécessite une évaluation approfondie de plusieurs facteurs clés. D'abord, il est crucial d'examiner la concurrence, en identifiant les forces et les faiblesses des principaux acteurs du secteur. Ensuite, une étude des besoins des consommateurs permettra de comprendre les attentes et les préférences des clients potentiels. Enfin, l'analyse des tendances économiques et réglementaires en matière d'assurance fournira des insights sur les opportunités et les défis futurs, aidant Chanas Assurances à se positionner stratégiquement sur le marché.",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Lely",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "43Mb",
+      "status": "old",
+      "liked": "no",
+      "progress": "10",
+      "id": "11"
+    },
+    {
+      "course": "GM",
+      "title": "Creation d'une Application de gestion d'ecole ",
+      "intro": "L'analyse du marché pour Chanas Assurances nécessite une évaluation approfondie de plusieurs facteurs clés. D'abord, il est crucial d'examiner la concurrence, en identifiant les forces et les faiblesses des principaux acteurs du secteur. Ensuite, une étude des besoins des consommateurs permettra de comprendre les attentes et les préférences des clients potentiels. Enfin, l'analyse des tendances économiques et réglementaires en matière d'assurance fournira des insights sur les opportunités et les défis futurs, aidant Chanas Assurances à se positionner stratégiquement sur le marché.",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Nasser",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "73Mb",
+      "status": "old",
+      "liked": "no",
+      "progress": "20",
+      "id": "12"
+    },
+    {
+      "course": "GMP",
+      "title": "Analyse des données pour entreprise de Ciment",
+      "intro": "L'analyse du marché pour Chanas Assurances nécessite une évaluation approfondie de plusieurs facteurs clés. D'abord, il est crucial d'examiner la concurrence, en identifiant les forces et les faiblesses des principaux acteurs du secteur. Ensuite, une étude des besoins des consommateurs permettra de comprendre les attentes et les préférences des clients potentiels. Enfin, l'analyse des tendances économiques et réglementaires en matière d'assurance fournira des insights sur les opportunités et les défis futurs, aidant Chanas Assurances à se positionner stratégiquement sur le marché.",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Lely",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "123Mb",
+      "status": "old",
+      "liked": "no",
+      "reading": "no",
+      "progress": "50",
+      "id": "13"
+    },
+    {
+      "course": "GCI",
+      "title": "Automatisation des End to End Tests 2",
+      "intro": "L'analyse du marché pour Chanas Assurances nécessite une évaluation approfondie de plusieurs facteurs clés. D'abord, il est crucial d'examiner la concurrence, en identifiant les forces et les faiblesses des principaux acteurs du secteur. Ensuite, une étude des besoins des consommateurs permettra de comprendre les attentes et les préférences des clients potentiels. Enfin, l'analyse des tendances économiques et réglementaires en matière d'assurance fournira des insights sur les opportunités et les défis futurs, aidant Chanas Assurances à se positionner stratégiquement sur le marché.",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Josiane",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "33Mb",
+      "status": "old",
+      "liked": "no",
+      "reading": "no",
+      "progress": "90",
+      "id": "14"
+    },
+    {
+      "course": "GAM",
+      "title": "Automatisation des End to End Tests 3 ",
+      "intro": "L'analyse du marché pour Chanas Assurances nécessite une évaluation approfondie de plusieurs facteurs clés. D'abord, il est crucial d'examiner la concurrence, en identifiant les forces et les faiblesses des principaux acteurs du secteur. Ensuite, une étude des besoins des consommateurs permettra de comprendre les attentes et les préférences des clients potentiels. Enfin, l'analyse des tendances économiques et réglementaires en matière d'assurance fournira des insights sur les opportunités et les défis futurs, aidant Chanas Assurances à se positionner stratégiquement sur le marché.",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Josiane",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "33Mb",
+      "status": "old",
+      "liked": "no",
+      "reading": "no",
+      "progress": "70",
+      "id": "15"
+    },
+    {
+      "course": "QHSE",
+      "title": "Automatisation des End to End Tests 4 ",
+      "intro": "L'analyse du marché pour Chanas Assurances nécessite une évaluation approfondie de plusieurs facteurs clés. D'abord, il est crucial d'examiner la concurrence, en identifiant les forces et les faiblesses des principaux acteurs du secteur. Ensuite, une étude des besoins des consommateurs permettra de comprendre les attentes et les préférences des clients potentiels. Enfin, l'analyse des tendances économiques et réglementaires en matière d'assurance fournira des insights sur les opportunités et les défis futurs, aidant Chanas Assurances à se positionner stratégiquement sur le marché.",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Josiane",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "33Mb",
+      "status": "old",
+      "liked": "no",
+      "reading": "yes",
+      "progress": "10",
+      "id": "16"
+    },
+    {
+      "course": "GPR",
+      "title": "Automatisation des End to End Tests 4 ",
+      "intro": "L'analyse du marché pour Chanas Assurances nécessite une évaluation approfondie de plusieurs facteurs clés. D'abord, il est crucial d'examiner la concurrence, en identifiant les forces et les faiblesses des principaux acteurs du secteur. Ensuite, une étude des besoins des consommateurs permettra de comprendre les attentes et les préférences des clients potentiels. Enfin, l'analyse des tendances économiques et réglementaires en matière d'assurance fournira des insights sur les opportunités et les défis futurs, aidant Chanas Assurances à se positionner stratégiquement sur le marché.",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Josiane",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "33Mb",
+      "status": "old",
+      "liked": "no",
+      "reading": "no",
+      "progress": "90",
+      "id": "17"
+    },
+    {
+      "course": "GE",
+      "title": "Automatisation des End to End Tests 4 ",
+      "intro": "L'analyse du marché pour Chanas Assurances nécessite une évaluation approfondie de plusieurs facteurs clés. D'abord, il est crucial d'examiner la concurrence, en identifiant les forces et les faiblesses des principaux acteurs du secteur. Ensuite, une étude des besoins des consommateurs permettra de comprendre les attentes et les préférences des clients potentiels. Enfin, l'analyse des tendances économiques et réglementaires en matière d'assurance fournira des insights sur les opportunités et les défis futurs, aidant Chanas Assurances à se positionner stratégiquement sur le marché.",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "Josiane",
+      "supervisor": "Maka Maka",
+      "date": "20/12/2024",
+      "size": "33Mb",
+      "status": "old",
+      "liked": "no",
+      "reading": "no",
+      "progress": "50",
+      "id": "18"
+    }
+  ],
+  "courses": [
+    {
+      "name": "Genie Informatique et Telecommunications",
+      "abbrev": "GIT",
+      "id": "1"
+    },
+    {
+      "name": "Genie Electrique et Systemes Intelligents ",
+      "abbrev": "GESI",
+      "id": "2"
+    },
+    {
+      "name": "Genie Energetique",
+      "abbrev": "GE",
+      "id": "3"
+    },
+    {
+      "name": "Genie des Procedes ",
+      "abbrev": "GPR",
+      "id": "4"
+    },
+    {
+      "name": "Genie Maritime et Portuaire",
+      "abbrev": "GMP",
+      "id": "5"
+    },
+    {
+      "name": "Genie Mecanique ",
+      "abbrev": "GM",
+      "id": "6"
+    },
+    {
+      "name": "Genie Qualite Hygiene et Securite ",
+      "abbrev": "QHSE",
+      "id": "7"
+    },
+    {
+      "name": "Genie Civil",
+      "abbrev": "GCI",
+      "id": "8"
+    },
+    {
+      "name": "Genie Automobile et Mecatronique ",
+      "abbrev": "GAM",
+      "id": "9"
+    }
+  ],
+  "newcollections": [
+    {
+      "id": "0b2f",
+      "name": "ny",
+      "reports": []
+    }
+  ]
+}

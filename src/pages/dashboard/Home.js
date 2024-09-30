@@ -1,54 +1,68 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { DashboardLayout } from "../../layouts/DashboardLayout";
+import Nowreading from "../../components/Nowreading";
+import { FaFileAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Home() {
   const [courses, setCourses] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:8000/courses")
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        setCourses(data);
-      })
-      .catch((error) => {
-        console.error("Error fetching courses:", error);
-      });
-  }, []); // Empty dependency array to run only once when the component mounts
+    console.log("Home component mounted");
 
-  const handleLogout = () => {
-    localStorage.removeItem("isAuthenticated");
-    navigate("/login");
-    // Use navigate for redirection
-  };
+    const fetchCourses = async () => {
+      try {
+        const res = await fetch("http://localhost:8000/courses");
+        if (!res.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const data = await res.json();
+        setCourses(data);
+      } catch (error) {
+        console.error("Error fetching courses:", error);
+        setError(error.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchCourses();
+
+    return () => {
+      console.log("Home component unmounted");
+    };
+  }, []);
+
+  if (loading) {
+    return <div>Loading courses...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
 
   return (
     <DashboardLayout>
       <div className="mainhome">
-        <button onClick={handleLogout}>Logout</button>
-
-        {/* COURSES DIV */}
         <h2 className="fw-bold">Courses</h2>
         <br />
         <div className="courses-container">
-          {courses.length > 0 ? (
-            courses.map((course) => (
-              <div className="coursebox" key={course.id}>
-                {course.name}
-              </div>
-            ))
-          ) : (
-            <p>No courses available</p>
-          )}
+          {courses.map((course) => (
+            <Link to={`/course/${course.id}`} className="coursebox" key={course.id}>
+              <FaFileAlt /> {course.name}
+            </Link>
+          ))}
         </div>
 
-        {/* NOW READING DIV */}
         <br />
         <br />
         <div className="nowreading">
           <h2 className="fw-bold">Now Reading</h2>
+          <Nowreading />
         </div>
       </div>
     </DashboardLayout>

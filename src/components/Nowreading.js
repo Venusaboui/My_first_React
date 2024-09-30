@@ -1,52 +1,56 @@
-import { useState,useEffect } from "react"
-import usefetch from "../usefetch";
-import 'bootstrap/dist/css/bootstrap.min.css'; 
+import { useEffect, useState } from "react";
+import { FaRegThumbsUp } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import ReportCard from "../components/Reportcard";
 
+const Nowreading = () => {
+  const [report, setReport] = useState([]);
+  const [error, setError] = useState(null);
 
-const Nowreading = () => { 
-    
+  useEffect(() => {
+    fetch("http://localhost:8000/report")
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return res.json();
+      })
+      .then((data) => {
+        setReport(data);
+      })
+      .catch((error) => {
+        console.error("Error fetching reports:", error);
+        setError(error.message);
+      });
+  }, []);
 
+  return (
+    <div className="nowreading">
+      {error && <p className="error">{error}</p>}
+      {report.filter((reports) => reports.reading === "yes").map((reports) => (
+        <div className="readingbook" key={reports.id}>
+          <div className="readingimg">
+            <ReportCard report={reports} />
+          </div>
+          <div className="readinginfo">
+            <p>
+              <span>
+                <Link to={`/reports/${reports.id}`} className="nrlink fs-5 fw-bold text-start">
+                  {reports.title}
+                </Link>
+              </span>
+            </p>
+            <span className="fst-italic fw-bold"> by {reports.author} ({reports.course})</span>
+            <p className="nr-reportbody">{reports.intro}</p>
+            {/* LIKE BUTTON */}
+            <p className="like-btn">
+              <FaRegThumbsUp /> 22k
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
 
-   const[users,setUsers]=useState([
-    {Firstname:'Ndobo',Lastname:'Paulin Thomas',Dateofbirth:'01/07/2004',Course:'GIT',Status:'Student',id:'1'},
-    {Firstname:'Ndobo',Lastname:'Paulien Thomas',Dateofbirth:'01/07/2004',Course:'GIT',Status:'Student',id:'2'},
-    {Firstname:'Ndobo',Lastname:'Paulin Thomas',Dateofbirth:'01/07/2004',Course:'GIT',Status:'Student',id:'3'}
-   ])
-
-
-
-
-    return (  
-                <div className="Profile">
-                     {/* {blogs && <Bloglist blogs={blogs.filter((blog) => blog.author ==='Josiane')} title='Now Reading ' supervisor={'Maka Maka'}/> }  */}
-                    {users.map((users)=>(
-                        <div className="userprofile bg-primary" key={users.id}>
-                           <div className="profilemaincontainer">
-                           <div className="userpicture">
-                                <button className="changepicture"></button>
-                                <button className="deletepicture"></button>
-                            </div> 
-                            <div class="row mb-3">
-                                <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">{users.Firstname}</label>
-                                 <div class="col-sm-10">
-                                <input type="text" class="form-control form-control-sm" id="colFormLabelSm"/>
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">{users.Lastname}</label>
-                                 <div class="col-sm-10">
-                                <input type="text" class="form-control form-control-sm" id="colFormLabelSm"/>
-                                </div>
-                            </div>
-                           </div>
-                            
-                            
-
-                        </div>
-
-                    ))}
-                </div>
-    );
-}
- 
 export default Nowreading;
