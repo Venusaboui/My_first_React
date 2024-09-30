@@ -11,7 +11,7 @@ const Coursepage = () => {
   const { id } = useParams();
 
     useEffect(() => {
-      fetch("http://localhost:8000/report")
+      fetch("https://readindata-zxon.vercel.app/report")
         .then((res) => res.json())
         .then((data) => {
           console.log(data);
@@ -22,7 +22,7 @@ const Coursepage = () => {
   useEffect(() => {
     fetchCourses();
     function fetchCourses() {
-      const data = fetch("http://localhost:8000/courses")
+      const data = fetch("https://readindata-zxon.vercel.app/courses")
         .then((res) => res.json())
         .then((data) => {
           setCourses(data);

@@ -12,13 +12,13 @@ const Collections = () => {
   const [selectedReport, setSelectedReport] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:8000/newcollections")
+    fetch("https://readindata-zxon.vercel.app/newcollections")
       .then((res) => res.json())
       .then((data) => {
         setNewCollections(data);
       });
 
-    fetch("http://localhost:8000/report")
+    fetch("https://readindata-zxon.vercel.app/report")
       .then((res) => res.json())
       .then((data) => {
         setAvailableReports(data);
@@ -29,10 +29,10 @@ const Collections = () => {
     e.preventDefault();
     const newCollection = {
       name: collectionName,
-      reports: [], // Start with an empty array
+      reports: [],
     };
 
-    fetch("http://localhost:8000/newcollections", {
+    fetch("https://readindata-zxon.vercel.app/newcollections", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -48,7 +48,7 @@ const Collections = () => {
   };
 
   const handleDeleteCollection = (id) => {
-    fetch(`http://localhost:8000/newcollections/${id}`, {
+    fetch(`https://readindata-zxon.vercel.app/newcollections/${id}`, {
       method: "DELETE",
     })
       .then(() => {
@@ -81,8 +81,8 @@ const Collections = () => {
     }
   };
 
-  const updateReports = (collection) => {
-    fetch(`http://localhost:8000/newcollections/${collection.id}`, {
+  const updateReports = (collectionId) => {
+    fetch(`hhttps://readindata-zxon.vercel.app/newcollections/${collectionId}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -96,6 +96,7 @@ const Collections = () => {
         setNewCollections((prev) =>
           prev.map((col) => (col.id === updatedCollection.id ? updatedCollection : col))
         );
+        closeModal(); // Close the modal after saving
       });
   };
 
@@ -199,7 +200,7 @@ const Collections = () => {
             </button>
             <br />
             <button
-              onClick={() => updateReports({ id: selectedReports.id })}
+              onClick={() => updateReports(selectedReports.id)} // Use the current collection ID
               className="rounded colforminput"
             >
               Save Reports

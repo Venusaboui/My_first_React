@@ -14,7 +14,7 @@ const Login = () => {
   useEffect(() => {
     const fetchCredentials = async () => {
       try {
-        const response = await fetch("http://localhost:8000/credentials");
+        const response = await fetch("https://readindata-zxon.vercel.app//credentials");
 
         if (!response.ok) {
           throw new Error("Failed to fetch credentials");

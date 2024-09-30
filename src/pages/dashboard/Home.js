@@ -16,7 +16,7 @@ function Home() {
 
     const fetchCourses = async () => {
       try {
-        const res = await fetch("http://localhost:8000/courses");
+        const res = await fetch("https://readindata-zxon.vercel.app/courses");
         if (!res.ok) {
           throw new Error('Network response was not ok');
         }

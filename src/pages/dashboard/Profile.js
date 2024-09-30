@@ -7,7 +7,7 @@ import { DashboardLayout3 } from "../../layouts/Dashboardlayout3";
 const Profile = () => {
   const [users, setUsers] = useState();
   useEffect(() => {
-    fetch("http://localhost:8000/users")
+    fetch("https://readindata-zxon.vercel.app/users")
       .then((res) => {
         return res.json();
       })

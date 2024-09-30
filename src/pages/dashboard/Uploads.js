@@ -9,7 +9,7 @@ export const Uploads = () => {
   const [report, setReport] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/report")
+    fetch("https://readindata-zxon.vercel.app/report")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

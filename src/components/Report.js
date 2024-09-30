@@ -19,7 +19,7 @@ export const Report = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch(`http://localhost:8000/report/${id}`);
+        const res = await fetch(`https://readindata-zxon.vercel.app/report/${id}`);
         if (!res.ok) throw new Error('Network response was not ok');
         const data = await res.json();
         setReport(data);

@@ -9,7 +9,7 @@ const Rightbar = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:8000/report")
+    fetch("https://readindata-zxon.vercel.app/report")
       .then((res) => {
         if (!res.ok) {
           throw new Error("Network response was not ok");
